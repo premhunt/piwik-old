@@ -10,6 +10,7 @@
  * This file cannot be a class because it needs to be compatible with PHP 4.
  */
 define('PIWIK_USER_PATH', '/data/analytics/current');
+define('PIWIK_INCLUDE_PATH', '/data/analytics/current/public');
 if (!defined('PIWIK_USER_PATH')) {
     define('PIWIK_USER_PATH', PIWIK_DOCUMENT_ROOT);
 }
